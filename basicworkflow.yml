@@ -1,0 +1,12 @@
+name: learn-github-actions
+
+on: [workflow_dispatch]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+        name: 'placeholder step'
+        run: echo "Hello world!"
+        name: 'run a one line command'
+        run: echo "hello from github-actions"
